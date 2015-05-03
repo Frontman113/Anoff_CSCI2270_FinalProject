@@ -66,6 +66,7 @@ public:
 private:
 	int get_hash_key(std::string&);
 	int size;
+	int totContact=0;
 	Movie** hashTable;
 
 };
